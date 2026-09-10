@@ -1,0 +1,53 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    width: 350px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.forgot {
+    font-size: 14px;
+}
+
+.signup {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}

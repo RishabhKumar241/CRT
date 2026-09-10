@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+        }
+
+        form {
+            width: 400px;
+            margin: 50px auto;
+            padding: 25px;
+            background-color: palevioletred;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input, select {
+            padding: 8px;
+            margin: 8px;
+        }
+
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        Name:
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+
+        Email:
+        <input type="email" placeholder="Enter your email id">
+        <br><br>
+
+        Date of Birth:
+        <input type="date">
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        Password:
+        <input type="password" placeholder="Enter your password">
+        <br><br>
+
+        Department:
+        <select>
+            <option>Select Department</option>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>ME</option>
+            <option>Civil</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
